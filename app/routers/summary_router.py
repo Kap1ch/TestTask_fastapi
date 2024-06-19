@@ -1,7 +1,7 @@
 from fastapi import APIRouter
 from langchain_huggingface import HuggingFacePipeline
 
-from app.schemas.summary_schema import TextRequest
+from schemas.summary_schema import TextRequest
 
 summary_router = APIRouter(
     tags=["summarize"],
